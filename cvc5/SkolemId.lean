@@ -411,7 +411,7 @@ inductive SkolemId where
   /--
   An uninterpreted function for bag.fold operator:
   To compute ``(bag.fold f t A)``, we need a function that
-  accumulates intermidiate values. We call this function
+  accumulates intermediate values. We call this function
   combine of type Int -> T2 where:
   combine(0) = t
   combine(i) = f(elements(i), combine(i - 1)) for 1 <= i <= n.
@@ -617,7 +617,7 @@ inductive SkolemId where
   /--
   An uninterpreted function for set.fold operator:
   To compute ``(set.fold f t A)``, we need a function that
-  accumulates intermidiate values. We call this function
+  accumulates intermediate values. We call this function
   combine of type Int -> T2 where:
   combine(0) = t
   combine(i) = f(elements(i), combine(i - 1)) for 1 <= i <= n
